@@ -26,7 +26,7 @@
   "sessionTime": "Menet időtartama",
   "chargingTime": "Töltési idő",
   "power": "Teljesítmény",
-  "consumption": "Energiamennyiség vételezés",
+  "consumption": "A menetben vételezett energiamennyiség",
   "totalConsumption": "Összesen vételezett energiamennyiség",
   "resetTotalConsumption": "Összesen vételezett energiamennyiség nullázása",
   "confirmResetTotalConsumption": "Biztos benne, hogy nullázni szeretné a teljes vételezet energiamennyiséget?",
