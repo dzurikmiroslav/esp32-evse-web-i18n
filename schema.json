@@ -1,0 +1,916 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "nav": {
+      "type": "object",
+      "properties": {
+        "home": {
+          "type": "string"
+        },
+        "settings": {
+          "type": "string"
+        },
+        "about": {
+          "type": "string"
+        },
+        "charging": {
+          "type": "string"
+        },
+        "network": {
+          "type": "string"
+        },
+        "serial": {
+          "type": "string"
+        },
+        "modbus": {
+          "type": "string"
+        },
+        "scheduler": {
+          "type": "string"
+        },
+        "files": {
+          "type": "string"
+        },
+        "script": {
+          "type": "string"
+        },
+        "management": {
+          "type": "string"
+        },
+        "system": {
+          "type": "string"
+        },
+        "nextion": {
+          "type": "string"
+        },
+        "selectLanguage": {
+          "type": "string"
+        },
+        "toggleTheme": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "home",
+        "settings",
+        "about",
+        "charging",
+        "network",
+        "serial",
+        "modbus",
+        "scheduler",
+        "files",
+        "script",
+        "management",
+        "system",
+        "nextion",
+        "selectLanguage",
+        "toggleTheme"
+      ]
+    },
+    "pendingAuthorization": {
+      "type": "string"
+    },
+    "chargingLimitReached": {
+      "type": "string"
+    },
+    "evConnected": {
+      "type": "string"
+    },
+    "charging": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "notAvailable": {
+      "type": "string"
+    },
+    "evNotConnected": {
+      "type": "string"
+    },
+    "sessionTime": {
+      "type": "string"
+    },
+    "chargingTime": {
+      "type": "string"
+    },
+    "power": {
+      "type": "string"
+    },
+    "consumption": {
+      "type": "string"
+    },
+    "totalConsumption": {
+      "type": "string"
+    },
+    "resetTotalConsumption": {
+      "type": "string"
+    },
+    "confirmResetTotalConsumption": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "string"
+    },
+    "authorize": {
+      "type": "string"
+    },
+    "sessionLimit": {
+      "type": "string"
+    },
+    "underPower": {
+      "type": "string"
+    },
+    "none": {
+      "type": "string"
+    },
+    "$none": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "no": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "string"
+    },
+    "reset": {
+      "type": "string"
+    },
+    "reload": {
+      "type": "string"
+    },
+    "cancel": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "deviceInfo": {
+      "type": "string"
+    },
+    "uptime": {
+      "type": "string"
+    },
+    "temperature": {
+      "type": "string"
+    },
+    "temperatureSensorCount": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "dateOfBuild": {
+      "type": "string"
+    },
+    "idfVersion": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "mac": {
+      "type": "string"
+    },
+    "chip": {
+      "type": "string"
+    },
+    "chipCores": {
+      "type": "string"
+    },
+    "chipRevision": {
+      "type": "string"
+    },
+    "heap": {
+      "type": "string"
+    },
+    "moreDetails": {
+      "type": "string"
+    },
+    "free": {
+      "type": "string"
+    },
+    "allocated": {
+      "type": "string"
+    },
+    "largestFreeBlock": {
+      "type": "string"
+    },
+    "minFree": {
+      "type": "string"
+    },
+    "deviceName": {
+      "type": "string"
+    },
+    "proximity": {
+      "type": "string"
+    },
+    "socketLock": {
+      "type": "string"
+    },
+    "rcm": {
+      "type": "string"
+    },
+    "energyMeter": {
+      "type": "string"
+    },
+    "energyMeterThreePhases": {
+      "type": "string"
+    },
+    "auxInputs": {
+      "type": "string"
+    },
+    "auxOutputs": {
+      "type": "string"
+    },
+    "auxAnalogInputs": {
+      "type": "string"
+    },
+    "serials": {
+      "type": "string"
+    },
+    "maxChargingCurrent": {
+      "type": "string"
+    },
+    "chargingCurrent": {
+      "type": "string"
+    },
+    "consumptionLimit": {
+      "type": "string"
+    },
+    "chargingTimeLimit": {
+      "type": "string"
+    },
+    "underPowerLimit": {
+      "type": "string"
+    },
+    "requireAuth": {
+      "type": "string"
+    },
+    "socketOutlet": {
+      "type": "string"
+    },
+    "temperatureThreshold": {
+      "type": "string"
+    },
+    "operatingTime": {
+      "type": "string"
+    },
+    "breakTime": {
+      "type": "string"
+    },
+    "retryCount": {
+      "type": "string"
+    },
+    "detection": {
+      "type": "string"
+    },
+    "unlockedHigh": {
+      "type": "string"
+    },
+    "lockedHigh": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "dummy": {
+      "type": "string"
+    },
+    "currentSensing": {
+      "type": "string"
+    },
+    "currentAndVoltageSensing": {
+      "type": "string"
+    },
+    "acVoltage": {
+      "type": "string"
+    },
+    "threePhases": {
+      "type": "string"
+    },
+    "ssid": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "loading": {
+      "type": "string"
+    },
+    "uploading": {
+      "type": "string"
+    },
+    "noWifiFound": {
+      "type": "string"
+    },
+    "systemLogs": {
+      "type": "string"
+    },
+    "modbus": {
+      "type": "string"
+    },
+    "nextionDisplay": {
+      "type": "string"
+    },
+    "script": {
+      "type": "string"
+    },
+    "atCommands": {
+      "type": "string"
+    },
+    "baudRate": {
+      "type": "string"
+    },
+    "dataBits": {
+      "type": "string"
+    },
+    "stopBits": {
+      "type": "string"
+    },
+    "parity": {
+      "type": "string"
+    },
+    "disable": {
+      "type": "string"
+    },
+    "even": {
+      "type": "string"
+    },
+    "odd": {
+      "type": "string"
+    },
+    "tcpServer": {
+      "type": "string"
+    },
+    "unitId": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "setCurrent": {
+      "type": "string"
+    },
+    "ntp": {
+      "type": "string"
+    },
+    "serverFromDhcp": {
+      "type": "string"
+    },
+    "server": {
+      "type": "string"
+    },
+    "schedules": {
+      "type": "string"
+    },
+    "noSchedules": {
+      "type": "string"
+    },
+    "addSchedule": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "enableCharging": {
+      "type": "string"
+    },
+    "chargerAvailable": {
+      "type": "string"
+    },
+    "chargingCurrent6A": {
+      "type": "string"
+    },
+    "chargingCurrent8A": {
+      "type": "string"
+    },
+    "chargingCurrent10A": {
+      "type": "string"
+    },
+    "clear": {
+      "type": "string"
+    },
+    "remove": {
+      "type": "string"
+    },
+    "monday": {
+      "type": "string"
+    },
+    "tuesday": {
+      "type": "string"
+    },
+    "wednesday": {
+      "type": "string"
+    },
+    "thursday": {
+      "type": "string"
+    },
+    "friday": {
+      "type": "string"
+    },
+    "saturday": {
+      "type": "string"
+    },
+    "sunday": {
+      "type": "string"
+    },
+    "root": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "download": {
+      "type": "string"
+    },
+    "edit": {
+      "type": "string"
+    },
+    "_delete": {
+      "type": "string"
+    },
+    "emptyDirectory": {
+      "type": "string"
+    },
+    "createDirectory": {
+      "type": "string"
+    },
+    "createFile": {
+      "type": "string"
+    },
+    "uploadFile": {
+      "type": "string"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "directoryName": {
+      "type": "string"
+    },
+    "fileContent": {
+      "type": "string"
+    },
+    "fileSaved": {
+      "type": "string"
+    },
+    "directorySaved": {
+      "type": "string"
+    },
+    "fileDeleted": {
+      "type": "string"
+    },
+    "directoryDeleted": {
+      "type": "string"
+    },
+    "fileUploaded": {
+      "type": "string"
+    },
+    "fileTooLarge": {
+      "type": "string"
+    },
+    "components": {
+      "type": "string"
+    },
+    "noComponents": {
+      "type": "string"
+    },
+    "configuration": {
+      "type": "string"
+    },
+    "noComponentConfig": {
+      "type": "string"
+    },
+    "autoReload": {
+      "type": "string"
+    },
+    "output": {
+      "type": "string"
+    },
+    "restart": {
+      "type": "string"
+    },
+    "confirmRestart": {
+      "type": "string"
+    },
+    "firmware": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "checkForUpdate": {
+      "type": "string"
+    },
+    "upgradeTo": {
+      "type": "string"
+    },
+    "noUpdateAvailable": {
+      "type": "string"
+    },
+    "uploadFirmware": {
+      "type": "string"
+    },
+    "binariesFromReleases1": {
+      "type": "string"
+    },
+    "binariesFromReleases2": {
+      "type": "string"
+    },
+    "writeFirmware": {
+      "type": "string"
+    },
+    "willBeRestart": {
+      "type": "string"
+    },
+    "reloadInSeconds1": {
+      "type": "string"
+    },
+    "reloadInSeconds2": {
+      "type": "string"
+    },
+    "reloadNow": {
+      "type": "string"
+    },
+    "successfullyUpdatedFirmware": {
+      "type": "string"
+    },
+    "successfullyUpdated": {
+      "type": "string"
+    },
+    "scriptReloaded": {
+      "type": "string"
+    },
+    "networkError": {
+      "type": "string"
+    },
+    "reloadPage": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "touch": {
+      "type": "string"
+    },
+    "flashSize": {
+      "type": "string"
+    },
+    "noNextionConnected": {
+      "type": "string"
+    },
+    "uploadProgram": {
+      "type": "string"
+    },
+    "writeProgram": {
+      "type": "string"
+    },
+    "staticIp": {
+      "type": "string"
+    },
+    "gateway": {
+      "type": "string"
+    },
+    "netmask": {
+      "type": "string"
+    },
+    "wifiAccessPoint": {
+      "type": "string"
+    },
+    "wifiAccessPointAutoStop": {
+      "type": "string"
+    },
+    "wifiStation": {
+      "type": "string"
+    },
+    "discovery": {
+      "type": "string"
+    },
+    "hostname": {
+      "type": "string"
+    },
+    "instanceName": {
+      "type": "string"
+    },
+    "rssi": {
+      "type": "string"
+    },
+    "httpErrorValues": {
+      "type": "object",
+      "properties": {
+        "400": {
+          "type": "string"
+        },
+        "404": {
+          "type": "string"
+        },
+        "413": {
+          "type": "string"
+        },
+        "415": {
+          "type": "string"
+        },
+        "500": {
+          "type": "string"
+        },
+        "512": {
+          "type": "string"
+        },
+        "513": {
+          "type": "string"
+        },
+        "520": {
+          "type": "string"
+        },
+        "521": {
+          "type": "string"
+        },
+        "522": {
+          "type": "string"
+        },
+        "523": {
+          "type": "string"
+        },
+        "531": {
+          "type": "string"
+        },
+        "532": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "400",
+        "404",
+        "413",
+        "415",
+        "500",
+        "512",
+        "513",
+        "520",
+        "521",
+        "522",
+        "523",
+        "531",
+        "532"
+      ]
+    },
+    "errorValues": {
+      "type": "object",
+      "properties": {
+        "pilot_fault": {
+          "type": "string"
+        },
+        "diode_short": {
+          "type": "string"
+        },
+        "lock_fault": {
+          "type": "string"
+        },
+        "unlock_fault": {
+          "type": "string"
+        },
+        "rcm_triggered": {
+          "type": "string"
+        },
+        "rcm_selftest_fault": {
+          "type": "string"
+        },
+        "temperature_high": {
+          "type": "string"
+        },
+        "temperature_fault": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pilot_fault",
+        "diode_short",
+        "lock_fault",
+        "unlock_fault",
+        "rcm_triggered",
+        "rcm_selftest_fault",
+        "temperature_high",
+        "temperature_fault"
+      ]
+    },
+    "energyMeterValues": {
+      "type": "object",
+      "properties": {
+        "cur_vlt": {
+          "type": "string"
+        },
+        "cur": {
+          "type": "string"
+        },
+        "none": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cur_vlt",
+        "cur",
+        "none"
+      ]
+    }
+  },
+  "required": [
+    "nav",
+    "pendingAuthorization",
+    "chargingLimitReached",
+    "evConnected",
+    "charging",
+    "error",
+    "notAvailable",
+    "evNotConnected",
+    "sessionTime",
+    "chargingTime",
+    "power",
+    "consumption",
+    "totalConsumption",
+    "resetTotalConsumption",
+    "confirmResetTotalConsumption",
+    "enabled",
+    "authorize",
+    "sessionLimit",
+    "underPower",
+    "none",
+    "$none",
+    "yes",
+    "no",
+    "submit",
+    "reset",
+    "reload",
+    "cancel",
+    "status",
+    "deviceInfo",
+    "uptime",
+    "temperature",
+    "temperatureSensorCount",
+    "version",
+    "dateOfBuild",
+    "idfVersion",
+    "ip",
+    "mac",
+    "chip",
+    "chipCores",
+    "chipRevision",
+    "heap",
+    "moreDetails",
+    "free",
+    "allocated",
+    "largestFreeBlock",
+    "minFree",
+    "deviceName",
+    "proximity",
+    "socketLock",
+    "rcm",
+    "energyMeter",
+    "energyMeterThreePhases",
+    "auxInputs",
+    "auxOutputs",
+    "auxAnalogInputs",
+    "serials",
+    "maxChargingCurrent",
+    "chargingCurrent",
+    "consumptionLimit",
+    "chargingTimeLimit",
+    "underPowerLimit",
+    "requireAuth",
+    "socketOutlet",
+    "temperatureThreshold",
+    "operatingTime",
+    "breakTime",
+    "retryCount",
+    "detection",
+    "unlockedHigh",
+    "lockedHigh",
+    "mode",
+    "dummy",
+    "currentSensing",
+    "currentAndVoltageSensing",
+    "acVoltage",
+    "threePhases",
+    "ssid",
+    "user",
+    "password",
+    "loading",
+    "uploading",
+    "noWifiFound",
+    "systemLogs",
+    "modbus",
+    "nextionDisplay",
+    "script",
+    "atCommands",
+    "baudRate",
+    "dataBits",
+    "stopBits",
+    "parity",
+    "disable",
+    "even",
+    "odd",
+    "tcpServer",
+    "unitId",
+    "timezone",
+    "time",
+    "setCurrent",
+    "ntp",
+    "serverFromDhcp",
+    "server",
+    "schedules",
+    "noSchedules",
+    "addSchedule",
+    "action",
+    "enableCharging",
+    "chargerAvailable",
+    "chargingCurrent6A",
+    "chargingCurrent8A",
+    "chargingCurrent10A",
+    "clear",
+    "remove",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday",
+    "root",
+    "name",
+    "size",
+    "download",
+    "edit",
+    "_delete",
+    "emptyDirectory",
+    "createDirectory",
+    "createFile",
+    "uploadFile",
+    "fileName",
+    "directoryName",
+    "fileContent",
+    "fileSaved",
+    "directorySaved",
+    "fileDeleted",
+    "directoryDeleted",
+    "fileUploaded",
+    "fileTooLarge",
+    "components",
+    "noComponents",
+    "configuration",
+    "noComponentConfig",
+    "autoReload",
+    "output",
+    "restart",
+    "confirmRestart",
+    "firmware",
+    "channel",
+    "checkForUpdate",
+    "upgradeTo",
+    "noUpdateAvailable",
+    "uploadFirmware",
+    "binariesFromReleases1",
+    "binariesFromReleases2",
+    "writeFirmware",
+    "willBeRestart",
+    "reloadInSeconds1",
+    "reloadInSeconds2",
+    "reloadNow",
+    "successfullyUpdatedFirmware",
+    "successfullyUpdated",
+    "scriptReloaded",
+    "networkError",
+    "reloadPage",
+    "model",
+    "touch",
+    "flashSize",
+    "noNextionConnected",
+    "uploadProgram",
+    "writeProgram",
+    "staticIp",
+    "gateway",
+    "netmask",
+    "wifiAccessPoint",
+    "wifiAccessPointAutoStop",
+    "wifiStation",
+    "discovery",
+    "hostname",
+    "instanceName",
+    "rssi",
+    "httpErrorValues",
+    "errorValues",
+    "energyMeterValues"
+  ]
+}
