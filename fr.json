@@ -25,7 +25,7 @@
   "evNotConnected": "Véhicule non connecté",
   "sessionTime": "Durée de la session",
   "chargingTime": "Temps de recharge",
-  "power": "Puissance",
+  "power": 2,
   "consumption": "Consommation",
   "totalConsumption": "Consommation totale",
   "resetTotalConsumption": "Réinitialiser consommation totale",
