@@ -6,13 +6,31 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate-json:
+  generate-matrix:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - id: set-matrix
+        run: |
+          FILES=$(find xxx -name "*.json" -type f | jq -R -s -c 'split("\n")[:-1]')
+          echo "matrix=$FILES" >> $GITHUB_OUTPUT
+  
+  validate-json:
+    needs: generate-matrix
+    runs-on: ubuntu-latest
+        strategy:
+    matrix:
+      file: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Process file
+        run: echo "Processing ${{ matrix.file }}" 
       - name: Validate JSON files by schema
         uses: cardinalby/schema-validator-action@v3
         with:
-          file: "*.json"
+          file: ${{ matrix.file }}
           schema: schema/schema.json
