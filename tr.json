@@ -150,6 +150,8 @@
   "fileContent": "Dosya içeriği",
   "fileSaved": "Dosya kaydedildi",
   "directorySaved": "Dizin kaydedildi",
+  "fileDeleted": "Dosya silindi",
+  "directoryDeleted": "Dizin silindi",
   "fileUploaded": "Dosya başarıyla yüklendi",
   "fileTooLarge": "Seçilen dosya çok büyük",
   "components": "Bileşenler",
