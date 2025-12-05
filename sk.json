@@ -16,6 +16,7 @@
     "selectLanguage": "Zvoliť jazyk",
     "toggleTheme": "Prepnúť tému"
   },
+  "pendingAuthorization": "Čaká na autorizáciu",
   "chargingLimitReached": "Dosiahnutý limit nabíjania",
   "evConnected": "EV pripojené",
   "charging": "Nabíjanie",
