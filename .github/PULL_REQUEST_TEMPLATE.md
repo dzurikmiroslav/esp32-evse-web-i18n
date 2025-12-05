@@ -3,8 +3,8 @@
 - [ ] 🐛 **Fix / Update** (Correcting typos or improving existing translations)
 
 ## Description
-**Language Name** [e.g., Slovak, German]
-**Language Name in locale** [REQUIRED: for new language, e.g., Slovenčina, Deutsch]
+- **Language Name** [e.g., Slovak, German]
+- **Language Name in locale** [REQUIRED: for new language, e.g., Slovenčina, Deutsch]
 
 ## Validation Checklist
 - [ ] **Fafamiliar with JSON:** I confirm that I understand the difference between JSON Keys and the JSON values.
