@@ -1,0 +1,30 @@
+name: New language request
+description: New language request
+body:
+  - type: input
+    id: language-name
+    attributes:
+      label: Language name
+      description: Language name (e.g., 'English', 'Slovak').
+      placeholder: 'English'
+    validations:
+      required: true
+  - type: input
+    id: language-local-name
+    attributes:
+      label: Language name in locale
+      description: Language name in own languahe (e.g., 'English', 'Slovenčina').
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Answers checklist.
+      description: Before submitting a new issue, please follow the checklist and try to find the answer.
+      options:
+        - label: I only translated existing key values found in the `en.json` file and save as `<two chart iso language code>.json`.
+          required: true
+        - label: I have NOT added any new keys or modify, rename existing keys.
+          required: true
+        - label: The file format is valid JSON.
+          required: true

@@ -2,7 +2,7 @@
 | Detail | Value |
 | :--- | :--- |
 | **Language Name** | [e.g., Slovak] |
-| **Language Name in locale (The name as it should appear in the app's language selecto)** | [REQUIRED: for new language, e.g., Slovenčina] |
+| **Language Name in locale (The name as it should appear in the app's language selector)** | [REQUIRED: for new language, e.g., Slovenčina] |
 | **ISO Code** | [e.g., sk-SK] |
 
 ## Type of Change
