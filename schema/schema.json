@@ -51,6 +51,7 @@
           "type": "string"
         }
       },
+      "additionalProperties": false,
       "required": [
         "home",
         "settings",
@@ -652,6 +653,7 @@
           "type": "string"
         }
       },
+      "additionalProperties": false,
       "required": [
         "400",
         "404",
@@ -696,6 +698,7 @@
           "type": "string"
         }
       },
+      "additionalProperties": false,
       "required": [
         "pilot_fault",
         "diode_short",
@@ -720,6 +723,7 @@
           "type": "string"
         }
       },
+      "additionalProperties": false,
       "required": [
         "cur_vlt",
         "cur",
@@ -727,6 +731,7 @@
       ]
     }
   },
+  "additionalProperties": false,
   "required": [
     "nav",
     "pendingAuthorization",
