@@ -197,7 +197,6 @@
   "instanceName": "Název instance",
   "rssi": "RSSI",
   "panicReboot": "Panický reštart",
-  "copyBacktrace": "Kopírovat backtrace",
   "acknowledge": "Potvrdit",
   "successfullyAcknowledged": "Úspěšně potvrzeno",
   "httpErrorValues": {

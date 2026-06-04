@@ -197,7 +197,6 @@
   "instanceName": "Örnek adı",
   "rssi": "Sinyal Gücü (RSSI)",
   "panicReboot": "Panik yeniden başlatma",
-  "copyBacktrace": "Backtrace kopyala",
   "acknowledge": "Onayla",
   "successfullyAcknowledged": "Başarıyla onaylandı",
   "httpErrorValues": {

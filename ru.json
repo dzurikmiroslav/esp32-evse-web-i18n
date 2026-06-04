@@ -197,7 +197,6 @@
   "instanceName": "Имя экземпляра",
   "rssi": "RSSI",
   "panicReboot": "Паника перезагрузка",
-  "copyBacktrace": "Копировать backtrace",
   "acknowledge": "Подтвердить",
   "successfullyAcknowledged": "Успешно подтверждено",
   "httpErrorValues": {

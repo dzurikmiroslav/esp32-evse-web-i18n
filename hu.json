@@ -197,7 +197,6 @@
   "instanceName": "Eszköznév",
   "rssi": "RSSI",
   "panicReboot": "Pánik újraindítás",
-  "copyBacktrace": "Backtrace másolása",
   "acknowledge": "Nyugtázás",
   "successfullyAcknowledged": "Sikeresen nyugtázva",
   "httpErrorValues": {

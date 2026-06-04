@@ -197,7 +197,6 @@
   "instanceName": "Instance name",
   "rssi": "RSSI",
   "panicReboot": "Panic reboot",
-  "copyBacktrace": "Copy backtrace",
   "acknowledge": "Acknowledge",
   "successfullyAcknowledged": "Successfully acknowledged",
   "httpErrorValues": {

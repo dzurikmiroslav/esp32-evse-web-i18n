@@ -197,7 +197,6 @@
   "instanceName": "Názov inštancie",
   "rssi": "RSSI",
   "panicReboot": "Panický reštart",
-  "copyBacktrace": "Kopírovať backtrace",
   "acknowledge": "Potvrdiť",
   "successfullyAcknowledged": "Úspešne potvrdené",
   "httpErrorValues": {
