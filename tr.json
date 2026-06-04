@@ -196,6 +196,10 @@
   "hostname": "Ana bilgisayar adı",
   "instanceName": "Örnek adı",
   "rssi": "Sinyal Gücü (RSSI)",
+  "panicReboot": "Panik yeniden başlatma",
+  "copyBacktrace": "Backtrace kopyala",
+  "acknowledge": "Onayla",
+  "successfullyAcknowledged": "Başarıyla onaylandı",
   "httpErrorValues": {
     "400": "Hatalı istek",
     "404": "Bulunamadı",

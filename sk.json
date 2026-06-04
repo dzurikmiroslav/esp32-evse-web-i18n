@@ -196,6 +196,10 @@
   "hostname": "Názov hostiteľa",
   "instanceName": "Názov inštancie",
   "rssi": "RSSI",
+  "panicReboot": "Panický reštart",
+  "copyBacktrace": "Kopírovať backtrace",
+  "acknowledge": "Potvrdiť",
+  "successfullyAcknowledged": "Úspešne potvrdené",
   "httpErrorValues": {
     "400": "Neplatný dotaz",
     "404": "Nenájdený",

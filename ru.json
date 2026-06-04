@@ -196,6 +196,10 @@
   "hostname": "Имя хоста",
   "instanceName": "Имя экземпляра",
   "rssi": "RSSI",
+  "panicReboot": "Паника перезагрузка",
+  "copyBacktrace": "Копировать backtrace",
+  "acknowledge": "Подтвердить",
+  "successfullyAcknowledged": "Успешно подтверждено",
   "httpErrorValues": {
     "400": "Ошибка запроса",
     "404": "Не найдено",

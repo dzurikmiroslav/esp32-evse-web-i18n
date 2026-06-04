@@ -196,6 +196,10 @@
   "hostname": "Nom d'hôte",
   "instanceName": "Nom de l'instance",
   "rssi": "RSSI",
+  "panicReboot": "Redémarrage panique",
+  "copyBacktrace": "Copier le backtrace",
+  "acknowledge": "Acquitter",
+  "successfullyAcknowledged": "Acquitté avec succès",
   "httpErrorValues": {
     "400": "Requête incorrecte",
     "404": "Non trouvé",

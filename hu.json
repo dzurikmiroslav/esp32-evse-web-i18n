@@ -196,6 +196,10 @@
   "hostname": "Gépnév",
   "instanceName": "Eszköznév",
   "rssi": "RSSI",
+  "panicReboot": "Pánik újraindítás",
+  "copyBacktrace": "Backtrace másolása",
+  "acknowledge": "Nyugtázás",
+  "successfullyAcknowledged": "Sikeresen nyugtázva",
   "httpErrorValues": {
     "400": "Hibás kérés",
     "404": "Nem található",
