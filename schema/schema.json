@@ -589,6 +589,9 @@
     "netmask": {
       "type": "string"
     },
+    "dns": {
+      "type": "string"
+    },
     "wifiAccessPoint": {
       "type": "string"
     },
@@ -608,6 +611,15 @@
       "type": "string"
     },
     "rssi": {
+      "type": "string"
+    },
+    "panicReboot": {
+      "type": "string"
+    },
+    "acknowledge": {
+      "type": "string"
+    },
+    "successfullyAcknowledged": {
       "type": "string"
     },
     "httpErrorValues": {
@@ -907,6 +919,7 @@
     "staticIp",
     "gateway",
     "netmask",
+    "dns",
     "wifiAccessPoint",
     "wifiAccessPointAutoStop",
     "wifiStation",
@@ -914,6 +927,9 @@
     "hostname",
     "instanceName",
     "rssi",
+    "panicReboot",
+    "acknowledge",
+    "successfullyAcknowledged",
     "httpErrorValues",
     "errorValues",
     "energyMeterValues"
