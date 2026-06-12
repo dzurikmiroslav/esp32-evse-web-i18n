@@ -189,6 +189,7 @@
   "staticIp": "Statik IP adresi",
   "gateway": "Ağ geçidi",
   "netmask": "Ağ maskesi",
+  "dns": "DNS sunucusu",
   "wifiAccessPoint": "WiFi Erişim Noktası (AP)",
   "wifiAccessPointAutoStop": "Erişim noktasına bir dakika içinde kimse bağlanmazsa otomatik olarak kapanacaktır.",
   "wifiStation": "WiFi istasyonu",

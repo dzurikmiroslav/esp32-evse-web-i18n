@@ -189,6 +189,7 @@
   "staticIp": "Statická IP adresa",
   "gateway": "Brána",
   "netmask": "Maska podsiete",
+  "dns": "DNS server",
   "wifiAccessPoint": "WiFi prístupový bod",
   "wifiAccessPointAutoStop": "Prístupový bod sa automaticky vypne, ak sa k nemu do jednej minúty nikto nepripojí.",
   "wifiStation": "WiFi stanica",

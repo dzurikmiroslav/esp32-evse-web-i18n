@@ -189,6 +189,7 @@
   "staticIp": "Статический IP-адрес",
   "gateway": "Шлюз",
   "netmask": "Маска подсети",
+  "dns": "DNS-сервер",
   "wifiAccessPoint": "Точка доступа WiFi",
   "wifiAccessPointAutoStop": "Точка доступа автоматически отключится, если в течение одной минуты к ней никто не подключится.",
   "wifiStation": "WiFi-станция",

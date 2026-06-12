@@ -189,6 +189,7 @@
   "staticIp": "Statikus IP cím",
   "gateway": "Átjáró",
   "netmask": "Alhálózati maszk",
+  "dns": "DNS kiszolgáló",
   "wifiAccessPoint": "Wi-Fi hozzáférési pont",
   "wifiAccessPointAutoStop": "A hozzáférési pont automatikusan kikapcsol, ha egy percen belül senki sem csatlakozik hozzá.",
   "wifiStation": "Wi-Fi kliens",

@@ -189,6 +189,7 @@
   "staticIp": "Adresse IP statique",
   "gateway": "Passerelle",
   "netmask": "Masque de sous-réseau",
+  "dns": "Serveur DNS",
   "wifiAccessPoint": "Point d'accès WiFi",
   "wifiAccessPointAutoStop": "Le point d'accès s'éteindra automatiquement si personne ne s'y connecte dans la minute.",
   "wifiStation": "Station WiFi",
